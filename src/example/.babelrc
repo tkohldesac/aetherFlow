@@ -1,0 +1,9 @@
+// this file is super important
+{
+  "presets": [
+    [
+      "@babel/preset-react", // tells babel that you need to do something related to parsing jsx (originally only a React thing)
+      { "runtime": "automatic", "importSource": ".."} // also super important, tells babel where to look for your custom `jsx`/`jsxs` functions. these will serve as the functions that generate your VDOM
+    ]
+  ]
+}
