@@ -6,9 +6,6 @@ export function render(root, DOMElement) {
   const element = document.createElement(root.tag);
 
   DOMElement.appendChild(element);
-
-
-  
   // Check to see if children exist and if so...
   if (root.props.children) {
     // Check if it's a single child or an array of children
@@ -30,10 +27,14 @@ export function render(root, DOMElement) {
       // Additional type checks can go here
     });
   }
-
-  // Add children
-  // Need to add attributes
-  // Need recursion
-
-  //Logic for rerendering
 }
+
+// Add children - done
+// Need to add attributes - inline styles, eventListeners, everything else that isn't children (disabled={false})
+// Need recursion - done
+
+//Logic for rerendering - done
+
+//   Attributes
+//   Functions
+//   State
