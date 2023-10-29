@@ -1,18 +1,21 @@
-import {render} from "../aetherFlow";
+import { render } from "../aetherflow";
 
 // all you can do is log these objects which will show you what babel and the jsx-runtime file you write are doing
-console.log(<div><button>haha you can't see me</button></div>)
 
-const rootExample = <div><button>haha you can't see me</button></div>
+const exampleElement = (
+  <h1>
+    <button>Example</button>
+  </h1>
+);
 
-const rootDiv = document.getElementById('root')
+const rootDiv = document.getElementById("root");
 
-render(rootExample, rootDiv);
+// Side note - look for the result of render in the Inspector, not the console...
+render(exampleElement, rootDiv);
 
 // console.log(<div onClick={() => {console.log('hi')}}>
 // Hello World!
 // </div>)
-
 
 // // x=root
 // const x = {
@@ -24,5 +27,3 @@ render(rootExample, rootDiv);
 // }
 
 // console.log(x);
-
-
