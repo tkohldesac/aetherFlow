@@ -11,7 +11,7 @@ const exampleElement = (
     </button>
   </h1>
 );
-
+ 
 const rootDiv = document.getElementById("root");
 
 // Side note - look for the result of render in the Inspector, not the console...
