@@ -3,8 +3,10 @@ import { render } from "../aetherflow";
 // all you can do is log these objects which will show you what babel and the jsx-runtime file you write are doing
 
 const exampleElement = (
-  <h1 style={{ backgroundColor: "red" }}>
-    <button disabled={false} onClick={() => console.log("clicked!")}>
+  <h1 style={{ backgroundColor: "green" }}>
+    <button 
+    disabled={false}
+     onClick={() => console.log("clicked!")}>
       Click meh
     </button>
   </h1>
