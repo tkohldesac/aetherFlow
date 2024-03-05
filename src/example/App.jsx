@@ -1,6 +1,6 @@
 import Button from './Button';
 import Dialog from './Dialog';
-import { makeState } from "../renderingFramework";
+import { makeState } from "../aetherflow";
 
 const App = () => {
   const [c1, setC1] = makeState(0);

@@ -7,7 +7,7 @@ const exampleElement = (
     <button 
     disabled={false}
      onClick={() => console.log("clicked!")}>
-      Click meh
+      Click me
     </button>
   </h1>
 );
